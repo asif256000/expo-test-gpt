@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "gpt-autopilot",
+    "slug": "gpt-autopilot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/GPT-Autopilot-icon.png",
+    "scheme": "gpt-autopilot",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/GPT-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "ios.bundleIdentifier": "xyz.asifiqbal.gpt-autopilot"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/GPT-Autopilot-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/GPT-favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
